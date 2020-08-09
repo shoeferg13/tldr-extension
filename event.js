@@ -1,3 +1,11 @@
+// Initialize Firebase
+var config = {
+    apiKey: "AIzaSyBzIzD4jjIwIypdQebsj4YoaEEaLXeIpjA",
+    databaseURL: "https://tldr-extension.firebaseio.com",
+    storageBucket: "tldr-extension.appspot.com"
+   };
+   firebase.initializeApp(config);
+
 // This function is called onload in the popup code
 function getPageDetails(callback) { 
     // Inject the content script into the current page 
