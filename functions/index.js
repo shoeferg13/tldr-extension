@@ -20,7 +20,7 @@ exports.helloWorld = functions.https.onRequest(async(request, response) => {
       //response.send("Hello from Firebase!");
     
       
-    deepai.setApiKey('1e472b04-558f-4112-affd-eba863ef608a');
+    deepai.setApiKey('2aa3b482-d727-459d-b09f-59a6685a17e2');
     console.log("hello");
     
         var resp = await deepai.callStandardApi("summarization", {
