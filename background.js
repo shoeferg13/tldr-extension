@@ -24,7 +24,6 @@ chrome.runtime.onMessage.addListener(function(message)  {
             type: "popup"
         });
         var s =  yourResponseObject.output;
-        s = s.replace(/\s*/g, '\n&bull;');
         views[0].document.getElementById('summary').innerHTML = s ;
         console.log(yourResponseObject);
 
